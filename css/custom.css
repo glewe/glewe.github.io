@@ -1,0 +1,114 @@
+/**
+ * custom.css
+ *
+ * @package LeweSite
+ * @version 0.2.000
+ * @author George Lewe (http://www.lewe.com)
+ * @copyright Copyright (c) 2019 by Lewe.com
+ */
+
+body {
+  font-size: 120%;
+}
+
+.container, .container-fluid {
+   padding: 0px;
+}
+
+.navbar-logo {
+   margin-right: 10px;
+}
+
+.carousel-caption {
+   background-color:rgba(0, 0, 0, 0.5);
+}
+
+.carousel-caption-header {
+   font-size: 1.40625rem;
+   margin-bottom: 0.5rem;
+   font-weight: 500;
+   line-height: 1.2;
+}
+
+.carousel-caption-text {
+   font-style: italic;
+   margin-top: 0;
+   margin-bottom: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: inherit;
+}
+
+.xsmall {
+  font-size: 72%;
+}
+
+.back-to-top {
+   position: fixed;
+   bottom: 25px;
+   right: 25px;
+   display: none;
+}
+
+footer {
+   color: #999999;
+   background-color: #202020;
+   padding: 20px 15px 300px 15px;
+   margin-bottom: 0px;
+}
+
+footer a { color: #666666; }
+
+.caret {
+   margin-left: 6px;
+}
+
+.fa-menu {
+   margin-right: 8px;
+}
+
+.italic {
+   font-style: italic;
+}
+
+.img_floatleft        { float:left; margin: 0 24px 5px 0;}
+.img_floatright       { float:right; margin: 0 0 5px 10px;}
+
+.img-border {
+   -moz-box-shadow: 0 0 5px #ccc;
+   -webkit-box-shadow: 0 0 5px #ccc;
+   box-shadow: 0 0 5px #ccc;
+   border: solid #fff 5px;
+   left: -5px;
+   background: #fff;
+}
+
+.spacer-20 { margin-top: 20px; }
+.spacer-40 { margin-top: 40px; }
+.spacer-60 { margin-top: 60px; }
+.spacer-80 { margin-top: 80px; }
+.spacer-100 { margin-top: 100px; }
+.spacer-120 { margin-top: 120px; }
+.spacer-140 { margin-top: 140px; }
+
+@media (max-width: 340px) {
+   img { max-width: 300px; }
+}
+@media (max-width: 820px) {
+   #slideshow { display: none; }
+}
+@media (max-width: 1024px) {
+   #slideshow { width: 700px; padding-top: 20px;}
+}
